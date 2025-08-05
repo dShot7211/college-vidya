@@ -120,3 +120,21 @@
     @apply bg-background text-foreground;
   }
 }
+
+.badge {
+  position: absolute;
+  bottom: -1px;
+  left: 0px;
+  background-color: #d5fbe2;
+  color: #0f4a46;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 4px;
+  width: 100%;
+  text-align: center;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  line-height: 1.1;
+}
