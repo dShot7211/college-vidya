@@ -12,7 +12,7 @@ const UpperSection = ({ college }: uppersection) => {
   return (
     <>
       <div className="flex flex-row md:flex-row gap-1">
-        <div className="w-[40%]  md:w-[55%]  space-y-1">
+        <div className="w-[40%]  md:w-[65%]  space-y-1">
           <div
             className="text-sm flex justify-start text-truncate truncate whitespace-nowrap p-0.5 text-white rounded-md"
             style={{
@@ -20,7 +20,7 @@ const UpperSection = ({ college }: uppersection) => {
                 college?.university?.university_dynamic_tag_color || "#0056D2",
               maxWidth: college?.university?.custom_tags?.includes("<?xml")
                 ? isMediumUp
-                  ? "63%"
+                  ? "50%"
                   : "100%"
                 : isMediumUp
                 ? "60%"

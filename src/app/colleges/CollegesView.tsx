@@ -66,6 +66,7 @@ export default function ClientColleges({
                 }}
               >
                 <CardContent className="p-0">
+                  {/* upper section */}
                   <UpperSection college={college} />
 
                   {/* approvals */}
@@ -110,6 +111,7 @@ export default function ClientColleges({
                       </span>
                     </Button>
                   </div>
+                  {/* know university */}
                   <div className="w-full flex flex-col mt-4 h-[80px] overflow-y-auto">
                     <p className="w-max text-[11px] bg-[#E2FBED] text-[#057450] py-0.5 px-2 font-bold rounded-md">
                       Know your university in 2 mins
@@ -141,7 +143,7 @@ export default function ClientColleges({
             </Button>
           </div>
         </div>
-        {/* Right 40%: static content */}
+        {/* Right static content */}
         <div className="md:w-[25%] w-full bg-muted rounded-lg p-0">
           <NewsCard />
         </div>
