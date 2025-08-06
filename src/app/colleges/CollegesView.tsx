@@ -51,6 +51,7 @@ export default function ClientColleges({
 
   return (
     <div className="p-4 px-4 md:px-8 lg:px-14 bg-[#F2F2F2]">
+      <h2 className="text-[26px] font-medium pb-3">Colleges</h2>
       {/* New top container with 60-40 layout */}
       <div className="flex flex-col md:flex-row gap-8">
         <div className="md:w-[75%] w-full space-y-4 ">
